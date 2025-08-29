@@ -1,2 +1,1 @@
-# Mood-Swing-Detection-Of-student-Using-IoB
-Mood Swing Detection Of student Using IoB
+This project focuses on detecting mood swings of students using facial expressions and Internet of Behaviors (IOB) concepts. By analyzing behavioral data and facial expression patterns, the system aims to understand students’ emotional states, which can be useful in education, counseling, and mental health support.
