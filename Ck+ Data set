@@ -1,0 +1,49 @@
+Extended Cohn-Kanade (CK+) Dataset
+
+The Extended Cohn-Kanade (CK+) dataset is a benchmark dataset widely used for facial expression and emotion recognition research.
+
+🔹 Purpose
+
+Designed to support studies in facial expression analysis, emotion detection, and computer vision applications.
+
+🔹 Dataset Overview
+
+Total Video Sequences: 593
+
+Subjects: 123 individuals (ages 18–50, diverse backgrounds)
+
+Format: Each video shows a gradual change from a neutral expression to a target emotion.
+
+🔹 Video Details
+
+Frame Rate: 30 FPS
+
+Resolution: 640×490 or 640×480 pixels
+
+🔹 Emotion Labels
+
+Out of 593 sequences, 327 are labeled with one of the 7 basic emotions:
+
+Anger
+
+Contempt
+
+Disgust
+
+Fear
+
+Happiness
+
+Sadness
+
+Surprise
+
+🔹 Applications
+
+Emotion recognition
+
+Mood detection systems
+
+Human-computer interaction (HCI)
+
+Machine learning and deep learning research in computer vision
