@@ -1,0 +1,92 @@
+1. Input Layer
+
+Input Size: 48×48 pixels
+
+Channels: 3 (RGB)
+
+Purpose: Takes in the student’s facial image for processing.
+
+2. Convolutional Blocks
+
+The CNN uses multiple convolutional blocks to extract features step by step.
+
+🔹 Block 1
+
+Conv2D (32 filters) → Detects simple patterns like edges
+
+Batch Normalization → Stabilizes learning
+
+Conv2D (32 filters) → Refines feature extraction
+
+MaxPooling (2×2) → Reduces image size while keeping key info
+
+🔹 Block 2
+
+Conv2D (64 filters) → Detects more complex textures
+
+Batch Normalization → Keeps outputs stable
+
+MaxPooling (2×2) → Further shrinks image size
+
+🔹 Block 3
+
+Conv2D (128 filters) → Learns shapes & higher-level features
+
+Batch Normalization
+
+MaxPooling (2×2)
+
+🔹 Block 4
+
+Conv2D (256 filters) → Extracts fine patterns
+
+Batch Normalization
+
+MaxPooling (2×2)
+
+🔹 Block 5
+
+Conv2D (512 filters) → Captures detailed, abstract features
+
+Batch Normalization
+
+3. Fully Connected Layers
+🔹 Flatten
+
+Converts 3D feature maps into a 1D vector.
+
+🔹 Dense (1024 Units)
+
+Learns complex relationships among extracted features.
+
+🔹 Dropout
+
+Randomly deactivates some neurons to prevent overfitting.
+
+🔹 Output Layer
+
+Dense (7 units, softmax)
+
+Outputs probabilities for 7 emotions:
+
+Surprise
+
+Fear
+
+Sadness
+
+Disgust
+
+Contempt
+
+Happy
+
+Anger
+
+4. Key Highlights
+
+ Convolutional Layers → Extract meaningful facial patterns
+ Batch Normalization → Stabilizes and accelerates training
+ MaxPooling → Keeps essential info while reducing size
+ Dropout → Prevents overfitting for better generalization
+Softmax → Provides probability distribution for emotions
