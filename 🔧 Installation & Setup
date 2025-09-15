@@ -1,0 +1,15 @@
+git clone https://github.com/your-username/mood-swing-detection-iob.git
+cd mood-swing-detection-iob
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the training script:
+
+python train.py
+
+
+For real-time mood detection:
+
+python detect_mood.py
